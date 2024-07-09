@@ -1,0 +1,170 @@
+/* Estilos generales */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+   
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.banner {
+    background-image: url("banner.jpg");
+    background-size: cover;
+    background-position: center;
+   
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.banner-texto {
+    position: relative;
+    top: 30%;
+    transform: translateY(-30%);
+}
+
+.clima {
+    text-align: center;
+    padding: 20px;
+}
+
+.formulario-contacto {
+    padding: 20px;
+}
+
+.formulario-contacto label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.formulario-contacto select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.formulario-contacto button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.formulario-contacto input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.destinos,
+.actividades,
+.contacto {
+    padding: 20px;
+}
+
+.destinos article,
+.actividades article,
+.contacto article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.destinos article img,
+.actividades article img,
+.contacto article img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.destinos article h3,
+.actividades article h3,
+.contacto article h3 {
+    margin-bottom: 5px;
+}
+
+.destinos article p,
+.actividades article p,
+.contacto article p {
+    text-align: justify;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos responsivos */
+
+@media (max-width: 768px) {
+    .banner {
+        height: 250px;
+    }
+
+    .destinos article,
+    .actividades article,
+    .contacto article {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .destinos article img,
+    .actividades article img,
+    .contacto article img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .destinos article h3,
+    .actividades article h3,
+    .contacto article h3 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .formulario-contacto input,
+    .formulario-contacto textarea {
+        width: 100%;
+    }
+}
+
+
+
+}

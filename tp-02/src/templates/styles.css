@@ -1,0 +1,58 @@
+/* Estilos para el fondo y colores principales */
+body {
+    color: #2a2e2e; /* Gris oscuro */
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.bg{
+    background-color: #eef4b6;
+}
+
+h1 {
+    color: #1a2b48; /* Azul oscuro */
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1.text {
+    color: #1caeed; /* Azul oscuro */
+    text-align: center;
+}
+
+/* Estilos para botones y formularios */
+
+
+.btn-primary {
+    background-color: #1a2b48; /* Azul oscuro */
+    border-color: #1a2b48; /* Azul oscuro */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Rojo */
+    border-color: #dc3545; /* Rojo */
+}
+
+
+/* Estilos para tarjetas y sombras */
+.card {
+    background-color: #ffffff; /* Blanco */
+    border-color: #1a2b48; /* Azul oscuro */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.btn-close {
+    background-color: transparent;
+    border: none;
+}
+
+.modal-title {
+    font-size: 1.25rem;
+    color: #1a2b48; /* Azul oscuro */
+}
+
+.modal-content {
+    border-color: #1a2b48; /* Azul oscuro */
+}

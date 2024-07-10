@@ -4,9 +4,9 @@ use python_bd;
 
 create table usuarios(
 	id int primary key auto_increment,
-    destino varchar(20),
-    excursion varchar(20),
-    precio varchar(20)
+    destino varchar(50),
+    excursion varchar(50),
+    precio float(10,2)
 );
 
 insert into usuarios(id, destino, excursion, precio) 
